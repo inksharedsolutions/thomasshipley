@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'gatsby'
+import FeaturedBook from '../assets/images/featured-book/featured_book.png'
 
 const banner = () =>{
     return(
@@ -32,7 +33,8 @@ const banner = () =>{
 
                         <div className="col-lg-6 col-12">
                           <div className="hero-image text-center" data-aos="fade-up" data-aos-delay="300">
-                            <img src="https://images-na.ssl-images-amazon.com/images/I/41h9CdcoK3L._SX331_BO1,204,203,200_.jpg" className="img-fluid" alt="working girl" />
+                            <img src={FeaturedBook} 
+                            className="img-fluid" alt="working girl" />
                           </div>
                         </div>
                        

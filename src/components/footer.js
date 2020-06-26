@@ -20,11 +20,11 @@ class Footer extends React.Component{
                       <img src={MainLogo} />
                   </div>
 
-                  <h1 className="text-white text-center heading-markup-footer" 
+                  {/* <h1 className="text-white text-center heading-markup-footer" 
                     data-aos="fade-up" 
                     data-aos-delay="100">
                     Thomas<strong> Shipley</strong> Jr.
-                  </h1> 
+                  </h1>  */}
 
                 </div>
 

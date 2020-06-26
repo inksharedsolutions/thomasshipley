@@ -37,7 +37,7 @@ https://templatemo.com/tm-538-digital-trend
     --primary-color:        #057a8d;
     --secondary-color:      #f1c111;
     --white-color:          #ffffff;
-    --dark-color:           #171819;
+    --dark-color:            #272727;
     --project-bg:           #f0f8ff;
     --menu-bg:              #0c8195;
 
@@ -361,6 +361,10 @@ https://templatemo.com/tm-538-digital-trend
     top: 2em;
   }
 
+  .hero-image img{
+    width: 440px;
+    max-width: 100%;
+  }
 
 
   /*---------------------------------------
@@ -752,7 +756,7 @@ https://templatemo.com/tm-538-digital-trend
  /*Newsletter*/
 
  #bottomWrapper{
-    background: #202123;
+    background: #313131;
     color: #fff;
     text-align: center;
     padding: 81px 0;
@@ -827,14 +831,18 @@ https://templatemo.com/tm-538-digital-trend
 }
 
 .logo-container{
-    width: 33px;
     max-width: 100%;
     margin: 0;
     cursor: pointer;
 }
 
+.logo-container img{
+  width: 135px;
+  margin: 0;
+}
+
 .logo-container-fx{
-    width: 66px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -855,6 +863,15 @@ https://templatemo.com/tm-538-digital-trend
 
 .heading-markup-footer{
   font-size: 1.5em;
+}
+
+.heading-markup-footer h1{
+  text-align: left !important;
+}
+
+.heading-markup-footer h1 span{
+  font-size: 2em;
+  display: block;
 }
 
 .mobile-footer-fx p{
