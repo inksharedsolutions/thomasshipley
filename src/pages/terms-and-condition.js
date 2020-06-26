@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 import {graphql , useStaticQuery } from 'gatsby';
 import Parser from 'html-react-parser';
 
-const TaC = ()=>{
+const TaC = (props)=>{
 
 	const FetchMarkDown = useStaticQuery(graphql`
 		 query TermsAndCondtionsPageQuery  {

@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 import {graphql , useStaticQuery } from 'gatsby';
 import Parser from 'html-react-parser';
 
-const PP = ()=>{
+const Pp = (props)=>{
 
 	const FetchMarkDown = useStaticQuery(graphql`
 		 query PrivacyPolicyPageQuery  {
@@ -36,4 +36,4 @@ const PP = ()=>{
 	)
 }
 
-export default PP;
+export default Pp
