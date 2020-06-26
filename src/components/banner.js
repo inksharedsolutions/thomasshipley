@@ -25,7 +25,7 @@ const banner = () =>{
                                       className="custom-btn btn-bg btn mt-3"
                                       data-aos="fade-up"
                                       data-aos-delay="100">
-                                      Let us discuss together!
+                                      Read More
                                     </Link>
                               </div>
                         </div>
