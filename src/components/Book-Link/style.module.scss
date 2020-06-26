@@ -1,0 +1,32 @@
+
+.booklinkBlocks{
+    background: none !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    line-height: normal !important;
+    height: auto;
+    margin-top: 40px;
+    text-align: right;
+
+    span{
+    	margin-right: 13px;
+        display: block;
+        margin-bottom: 16px;
+        font-style: italic;
+        font-size: 12px;
+    }
+
+    li{
+    	list-style: none;
+    	display: inline-block;
+    	padding: 0 4px;
+    }
+
+    a{
+   	    text-decoration: none;
+        background: #f1c111;
+        padding: 4px 15px;
+        color: #fff;
+        font-size: 13px;
+    }
+}

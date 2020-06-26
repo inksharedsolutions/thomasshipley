@@ -1,0 +1,145 @@
+
+/*Other Pages..*/
+
+.elementContainers{
+	margin: 6rem 0;
+}
+
+.elementContainers .headingFoxtrot{
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.disp-block{
+	display: block;
+}
+
+/*.headingFoxtrot:before{
+	background-image: url('../icons/pen.png');
+    background-size: 30px 40px;
+    width: 40px;
+    height: 40px;
+    content: "";
+    background-repeat: no-repeat;
+    display: block;
+    margin-bottom: 26px;
+}*/
+
+.contents-mockup{
+    margin-bottom: 5em;
+}
+
+.imgAuthorContainer{
+    text-align: center;
+    margin-top: 6em;
+}
+
+.imgAuthorContainer img{
+    width: 350px;
+    border: 20px solid #eee;
+    margin-top: 41px;
+    max-width: 100%;
+}
+
+.elementsAuthorBio{
+    margin-top: 75px;
+}
+
+.elementsAuthorBio p{
+	font-weight: 2.0;
+    line-height: 1.9;
+    font-size: 0.8em;
+}
+
+.spanTagline span:after{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 2px;
+    display: block;
+    background-color: #f1c111;
+    right: 16px;
+}
+
+.author-tagliner{
+    text-align: right;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    margin-top: 13px;
+}
+
+.spanTagline img{
+    width: 184px;
+    max-width: 100%; 
+}
+
+.social-media-icons{
+    margin: 0;
+    padding: 0; 
+}
+
+.social-media-icons li{
+    display: inline-block;
+    list-style: none;
+}
+
+.social-media-icons a{
+    padding: 0 10px;
+}
+
+
+/*
+    @@ react slick override
+*/
+
+
+.slick-slide img{
+    width:250px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.slick-prev:before, .slick-next:before{
+    font-family: 'slick';
+    font-size: 50px !important;
+    line-height: 1;
+    opacity: .75;
+    color: #000 !important;
+    -webkit-font-smoothing: antialiased;
+}
+
+.section-abt-bk{
+    padding: 0 4rem;
+    margin-top: 16px;
+}
+
+.section-abt-bk p{
+    font-weight: 100;
+    line-height: 1.9;
+    font-size: 0.9em;
+}
+
+.disqus-container-bars{
+    margin-bottom: 62px;
+}
+
+.article-contents{
+    margin: 81px 0;
+}
+
+.heading-off-pages{
+    margin-bottom: 63px;
+    text-transform: uppercase;
+    letter-spacing: 3px;  
+}
+
+
+.author-name{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    text-align: right; 
+}
