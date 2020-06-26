@@ -401,6 +401,12 @@ https://templatemo.com/tm-538-digital-trend
     top: 2px;
   }
 
+  .paragraph-subs{
+    margin: 18px 0;
+    color: #f1c111a3;
+    text-transform: uppercase;
+  }
+
   .project-info a {
     color: var(--primary-color);
   }

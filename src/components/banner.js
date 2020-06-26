@@ -13,6 +13,7 @@ const banner = () =>{
 
                                    <h1 className="text-white banr-heading" data-aos="fade-up">
                                         The United States of <span className="highlight-span">America</span>
+                                        <p className="paragraph-subs">The most succesful nation and people of all</p>
                                     </h1>
 
                                     <p data-aos="fade-up banr-subheading">
