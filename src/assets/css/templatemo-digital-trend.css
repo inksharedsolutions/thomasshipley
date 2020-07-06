@@ -957,7 +957,10 @@ span.author-btn-redirect a{
 }
 
 .trailer-container{
-  border: 2px solid #f1c111;
+  border: 2px solid #414141;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 .trailer-container svg{

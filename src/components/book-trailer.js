@@ -1,6 +1,10 @@
 import React, {useEffect} from 'react'
 import VideoPlayer from 'react-simple-video-player'
 import VideoTrailer from '../assets/video/Book_Trailer.mp4'
+import ReactPlayer from 'react-player/youtube'
+import { Player } from 'video-react';
+import "../../node_modules/video-react/dist/video-react.css";
+
 
 
 const BookTrailer = ()=>{
@@ -34,14 +38,14 @@ const BookTrailer = ()=>{
                         </div>
 
                         <div className="trailer-container">
-                                
-                            <VideoPlayer
-                                url={VideoTrailer}
-                                poster={''}
-                                width={600}
-                                height={400}
-                                autoplay={false}
+                            <Player
+                                playsInline
+                                poster=""
+                                src={VideoTrailer}
+                                height="500"
+                                width="500"
                             />
+                    
                         </div>
                     </section>
                 </div>
