@@ -1,7 +1,7 @@
 import React from 'react'
 import VideoPlayer from 'react-simple-video-player'
 import VideoTrailer from '../assets/video/Book_Trailer.mp4'
-import Poster from '../assets/video/poster.png'
+
 
 const BookTrailer = ()=>{
      return(
@@ -27,7 +27,7 @@ const BookTrailer = ()=>{
 
                             <VideoPlayer
                                 url={VideoTrailer}
-                                poster={Poster}
+                                poster={''}
                                 width={600}
                                 height={400}
                                 autoplay={false}
