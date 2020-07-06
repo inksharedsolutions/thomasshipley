@@ -2,7 +2,8 @@
 /*Other Pages..*/
 
 .elementContainers{
-	margin: 6rem 0;
+    margin: 6rem 0;
+    padding: 12% 0;
 }
 
 .elementContainers .headingFoxtrot{
@@ -50,7 +51,6 @@
 .elementsAuthorBio p{
 	font-weight: 2.0;
     line-height: 1.9;
-    font-size: 0.8em;
 }
 
 .spanTagline span:after{
@@ -120,10 +120,31 @@
     margin-top: 16px;
 }
 
+.section-abt-bk h2{
+    font-size: 4em;
+    line-height: 1.2;
+}
+
+.span-title{
+    color: #d49b2c;
+    margin-bottom: 4rem;
+    font-size: 18px;
+}
+.span-title::after{
+    content: "";
+    width: 90%;
+    background: #e0e0e0;
+    position: relative;
+    display: block;
+    height: 1px;
+    margin: 19px 1px;
+    left: 0;
+}
+
 .section-abt-bk p{
     font-weight: 100;
     line-height: 1.9;
-    font-size: 0.9em;
+    /* font-size: 0.9em; */
 }
 
 .disqus-container-bars{
@@ -147,4 +168,39 @@
     text-transform: uppercase;
     display: block;
     text-align: right; 
+}
+
+.banner-section{
+    height: 400px !important;
+}
+/* 
+.banner-section img{
+   height: 400px !important;
+} */
+
+.react-parallax {
+    height: 500px;
+}
+
+.banner-title{
+    display: flex;
+    height: 500px;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    font-size: 5rem;  
+}
+
+.banner-title::after{
+    content: "";
+    width: 114px;
+    background: #f1c111;
+    position: absolute;
+    /* display: block; */
+    height: 5px;
+    margin: 55px 1px;
+}
+
+.book-covers img{
+    width: 100%;
 }

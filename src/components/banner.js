@@ -16,11 +16,9 @@ const banner = () =>{
                                         <p className="paragraph-subs">The most succesful nation and people of all</p>
                                     </h1>
 
-                                    <p data-aos="fade-up banr-subheading">
+                                    <p data-aos="fade-up banr-subheading" className="banr-subheading">
                                         Don’t ever get too interested in government activities—particularly
-                                        if it involves something that appears wrong. When you investigate,
-                                        it will lead to something else, then to something else, and then to
-                                        something else, and then…
+                                        if it involves something that appears wrong.
                                     </p>
 
                                    <Link to="/about-the-book" 

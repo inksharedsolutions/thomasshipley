@@ -1,0 +1,80 @@
+.book-wrapper-slider{
+    background: #d8d8d852;
+    padding: 6%;
+    // box-shadow: -1px 1px 28px 4px #0e0e0e;
+    border-radius: 50px;
+    margin: 10px 0;
+}
+
+
+.content-wrapper{
+    margin-bottom: 4em;
+    h1{
+        line-height: 2;
+    }
+}
+
+/*Slick Custom*/
+
+.slick-slider{
+    margin: 0 70px;
+}
+
+.slick-initialized .slick-slide{
+    text-align: center;
+    padding: 0 10px;
+    h3{
+        font-size: 27px;
+        color: #1d1d1d;
+        margin: 0.2em;
+        font-weight: bold;
+    }
+    span{
+        font-size: 12px;
+        color: #929292 !important;
+    }
+}
+.slick-active{
+    text-align: center !important;
+
+    img{
+        margin: 0 auto;
+    }
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #fdda55 !important;
+}
+
+.slick-prev:before, .slick-next:before{
+    color: #f1c111 !important;
+    position: relative;
+    z-index: 10 !important;
+    font-size: 40px !important;
+}
+
+.slick-prev, .slick-next{
+    margin:0 !important;
+}
+
+.slick-prev{
+    z-index: 10 !important;
+    left: 0 !important;
+}
+
+.slick-next{
+    right: 15px !important;
+}
+
+
+
+/**/
+
+.books-slider{
+    margin: 7% 0;
+    h1{
+        margin: 3rem 0;
+        text-align: center;
+    }
+}

@@ -3,11 +3,15 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import authorImg from '../assets/images/author/main_author.jpg'
 import penMark from '../assets/images/author/pen_mark.jpg'
+import Banner from '../components/non-front-banner'
 
 const aboutTheAuthor = (props) => {
 	return(
 		<>
 			<Layout>
+
+				<Banner  title={`About the Author`} />
+
 				<div className="container">
 					<div className={`row elementContainers`}>
 						<div className="col-lg-5 col-md-12 col-12">
@@ -18,8 +22,7 @@ const aboutTheAuthor = (props) => {
 
 						<div className="col-lg-7 col-md-12 col-12">
 							<section className={`elementsAuthorBio`}>
-								<h1 className={`headingFoxtrot`}>About The <span className="disp-block">Author</span></h1>
-
+								
 								<p>	
 									 Thomas (Tom) Shipley Jr. is a prolific writer and has been widely published by the trade press for general industrial, electrical, electronic,
 									 and metalworking sectors. Tom was born in Kingsport, Tennessee, served in the U.S. Navy during World War II. He was a 1950 graduate of Virginia 

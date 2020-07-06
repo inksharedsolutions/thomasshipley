@@ -18,12 +18,12 @@ const Layout = ( props ) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
-        siteMetadata {
+        siteMetadata { 
           title
         }
       }
     }
-  `)
+  `)  
 
   return (
     <>

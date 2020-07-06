@@ -23,21 +23,21 @@ const BookSlider = (props) =>{
 
 		<>
 		 <div className="col-lg-4 col-md-12 col-12">
-
-		        <Slider {...settings}>
-		            <div className={`frontCover`}>
-		              <img src={props.imgBooksrc.front} className="img-fluid" alt="front cover"/>
-		            </div>
-		            <div className={`backCover`}>
-		              <img src={props.imgBooksrc.back} className="img-fluid" alt="front cover"/>
-		            </div>
-		          </Slider>
+				<div className="book-covers">
+		     		 <img src={props.imgBooksrc.bookCover}/>
+				</div>
 
 		          <BookLinks bookInfo={props.metaBookLinks}/>
 		    </div>	
 
 		    <div className="col-lg-8 col-md-12 col-12 contents-mockup">
+
+
 		      <section className="section-abt-bk">
+
+				  <h2>{props.title}</h2>
+				  <p className="span-title">{props.spanTitle}</p>
+
 		          { props.contents }
 		      </section>
 		  </div>

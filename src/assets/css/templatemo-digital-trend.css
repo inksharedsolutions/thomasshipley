@@ -1,13 +1,13 @@
 /*
 
-DIGITAL TREND
-
-https://templatemo.com/tm-538-digital-trend
+  DIGITAL TREND
+  https://templatemo.com/tm-538-digital-trend
 
 */
 
 /*Imports*/
   @import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap|Liu+Jian+Mao+Cao|Montserrat&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap');
 
   @font-face {
       font-family: 'Plain-Regular';
@@ -33,6 +33,13 @@ https://templatemo.com/tm-538-digital-trend
       font-style: normal;
   }
 
+    
+  @font-face {
+    font-family:"augusta-free"; /*a name to be used later*/
+    src: url("../fonts/august_free_bold.ttf") format('truetype'); /*URL to font*/
+  }
+
+
   :root {
     --primary-color:        #057a8d;
     --secondary-color:      #f1c111;
@@ -46,8 +53,8 @@ https://templatemo.com/tm-538-digital-trend
     --link-color:           #404040;
     --p-color:              #666262;
 
-    --base-font-family:     'Open Sans', sans-serif;
-    --title-font-family:    'Plain-Regular', sans-serif;
+    --base-font-family:     'Poppins', sans-serif;
+    --title-font-family:    'Poppins', sans-serif;
     --font-bold-family:     'Plain-Bold', sans-serif;
     --font-weight-bold:     bold;
 
@@ -102,16 +109,17 @@ https://templatemo.com/tm-538-digital-trend
   }
 
   p{
-    color: var(--p-color);
+    color: #4e4e4edb;
     font-size: var(--p-font-size);
-    line-height: 1.5em;
+    line-height: 1.8em;
     font-family: var(--base-font-family);
+    font-size: 19px;
   } 
 
   b, 
   strong {
     letter-spacing: 0; 
-    color: var(--secondary-color);
+    color: #000000;
   }
 
 
@@ -353,7 +361,7 @@ https://templatemo.com/tm-538-digital-trend
 
   .hero-bg {
     background: linear-gradient(170deg, #2d2d2d 64%, var(--white-color) 30%);
-    height: 90vh;
+    height: 78vh;
   }
 
   .hero-image {
@@ -606,7 +614,7 @@ https://templatemo.com/tm-538-digital-trend
   }
 
   .copyright-text {
-    margin-top: 5.9em;
+    margin-top: 4.9em;
   }
 
 
@@ -858,7 +866,8 @@ https://templatemo.com/tm-538-digital-trend
 }
 
 .banr-subheading{
-  margin-left: 3em;
+  color: #cec6c6 !important;
+  font-weight: 100;
 } 
     
 .highlight-span{
@@ -881,7 +890,8 @@ https://templatemo.com/tm-538-digital-trend
 }
 
 .mobile-footer-fx p{
-    font-size: 0.8em;
+  font-size: 0.8em;
+  color: #656565;
 }
 
 .social-icon a{
@@ -896,4 +906,101 @@ span.author-btn-redirect a{
     text-transform: uppercase;
     letter-spacing: 1px;
     text-decoration: underline;
+}
+
+.banr-heading {
+  font-family: 'Poppins', sans-serif;
+  text-transform: capitalize;
+  font-size: 3.3rem;
+  line-height: 1.23;
+}
+
+
+
+.copyright-text{
+  color: #6b6868;
+}
+
+/**/
+
+
+.book-trailer-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:3%;
+}
+
+.parent-trailer{
+  background: #050505;
+  padding: 7% 0;
+}
+
+.heading-container h1{
+  font-size: 6rem;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.heading-container h3{
+  color: #f1c111;
+  font-size: 2rem;
+}
+
+.heading-container span{
+  display: block;
+}
+
+.heading-container p{
+  margin-top: 24px;
+  color: #9c9797;
+}
+
+.trailer-container{
+  border: 2px solid #f1c111;
+}
+
+.trailer-container svg{
+  color: rgb(241, 193, 17) !important;
+}
+
+.display-grid-two-col{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.heading-author{
+  margin: 4%;
+  width: 100%;
+  max-width: 100% !important;
+  text-align: right;
+}
+
+.heading-author p{
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #000;
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.heading-author span{
+  font-family: "augusta-free";
+  font-size: 6rem;
+  line-height: 1;
+  color: #000000;
+}
+.heading-author p{
+  font-size: 15px;
+  line-height: 0;
+}
+
+.tagline-ft{
+  font-weight: 100 !important;
+  letter-spacing: 8px !important;
+  color: #f1c111 !important;
+  line-height: 2.5 !important;
 }

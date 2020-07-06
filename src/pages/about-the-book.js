@@ -1,13 +1,16 @@
 import React from "react"
-import {graphql , useStaticQuery } from 'gatsby';
-
-import { Link } from "gatsby"
 import Layout from "../components/layout"
-import authorImg from '../assets/images/author/dummy.png'
+
 
 import BookSlider from '../components/Book-Slider/book-slider'
-import ReadMore from '../components/Read-More/Read-More'
 import { DiscussionEmbed } from "disqus-react"
+import Banner from '../components/non-front-banner'
+
+/*images*/
+import Book1 from '../assets/images/featured-book/featured_book.png'
+import Book2 from '../assets/images/featured-book/book_2.png'
+import Book3 from '../assets/images/featured-book/book_3.png'
+import Book4 from '../assets/images/featured-book/book_4.png'
 
   
 const AboutTheBook = (props) => {
@@ -164,23 +167,19 @@ const AboutTheBook = (props) => {
   return(
     <>
       <Layout>
+        <Banner  title={`About the Book`} />
         <div className="container">
 
           <div className={`row elementContainers`}>
-
-
-            <div className="col-lg-12 col-md-12 col-12 heading-atb">
-                <h1 className={`headingFoxtrot`}>
-                  About The <span className="disp-block">Book</span>
-                </h1>
-            </div>
               
             <BookSlider 
+
+              title={`The United States of America`}
+              spanTitle={`The most succesful nation and people of all`}
               contents={fBookContent}
               imgBooksrc={
                 {
-                  front :  'https://images-na.ssl-images-amazon.com/images/I/41h9CdcoK3L._SX331_BO1,204,203,200_.jpg',
-                  back  :  'https://images-na.ssl-images-amazon.com/images/I/819gaIGvjFL.jpg'
+                  bookCover: Book1
                 }
               }
 
@@ -206,10 +205,11 @@ const AboutTheBook = (props) => {
 
            <BookSlider 
               contents={sBookContent}
+              title={`Man-Made Global Warming?`}
+              spanTitle={``}
               imgBooksrc={
                 {
-                  front :  'https://images-na.ssl-images-amazon.com/images/I/61BOgdKG%2B5L.jpg',
-                  back  :  'https://images-na.ssl-images-amazon.com/images/I/71%2BrbqmNERL.jpg'
+                  bookCover: Book2
                 }
               }
 
@@ -234,10 +234,11 @@ const AboutTheBook = (props) => {
 
             <BookSlider 
               contents={tBookContent}
+              title={`For the Good Times`}
+              spanTitle={`The Best of Fifty Years`}
               imgBooksrc={
                 {
-                  front :  'https://images-na.ssl-images-amazon.com/images/I/71WjiiFJXmL.jpg',
-                  back  :  'https://images-na.ssl-images-amazon.com/images/I/71NkFTndaGL.jpg'
+                  bookCover: Book3
                 }
               }
 
@@ -262,10 +263,11 @@ const AboutTheBook = (props) => {
 
             <BookSlider 
               contents={forthBookContent}
+              title={`A Life's Story:`}
+              spanTitle={`A potrait of millions of ordinary american citizens as they moved through the twentieth century`}
               imgBooksrc={
                 {
-                  front : 'https://images-na.ssl-images-amazon.com/images/I/61yN4Rhn5sL.jpg',
-                  back  : 'https://images-na.ssl-images-amazon.com/images/I/71PbXFLvJiL.jpg'
+                  bookCover: Book4
                 }
               }
 
