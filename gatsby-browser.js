@@ -44,3 +44,7 @@ var  __animationInstance = function(){}
 var inst = (new __animationInstance);
 inst.aos();
 
+
+if (typeof window === 'undefined') {
+	global.window = {}
+}
