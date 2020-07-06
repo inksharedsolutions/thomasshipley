@@ -1,9 +1,19 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import VideoPlayer from 'react-simple-video-player'
 import VideoTrailer from '../assets/video/Book_Trailer.mp4'
 
 
 const BookTrailer = ()=>{
+
+
+    useEffect(() => {
+        
+        if (typeof window === 'undefined') {
+            global.window = {}
+        }
+        
+    });
+
      return(
          <>
             <div className="parent-trailer">
@@ -24,7 +34,7 @@ const BookTrailer = ()=>{
                         </div>
 
                         <div className="trailer-container">
-
+                                
                             <VideoPlayer
                                 url={VideoTrailer}
                                 poster={''}
