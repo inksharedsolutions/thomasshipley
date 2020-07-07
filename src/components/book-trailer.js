@@ -1,11 +1,10 @@
 import React, {useEffect, useState } from 'react'
-import VideoPlayer from 'react-simple-video-player'
 import VideoTrailer from '../assets/video/Book_Trailer.mp4'
-import ReactPlayer from 'react-player/youtube'
 import { Player } from 'video-react';
 import "../../node_modules/video-react/dist/video-react.css";
 
-
+// import loadable from '@loadable/component'
+// const OtherComponent = loadable(() => import('../../node_modules/video-react/'));
 
 
 const BookTrailer = ()=>{
@@ -13,7 +12,7 @@ const BookTrailer = ()=>{
     const[ state, __stateFunc ] = useState(false);
 
     useEffect(() => {
-        if (typeof window !== 'undefined' ||  typeof window  === 'object') {
+        if (typeof(window) !== 'undefined' ||  typeof window  === 'object') {
             __stateFunc(true);
         }
     },[state, __stateFunc]);
@@ -38,8 +37,18 @@ const BookTrailer = ()=>{
                         </div>
 
                         <div className="trailer-container">
-
-                    
+                            {
+                                state && (
+                                    <Player
+                                        playsInline
+                                        poster=""
+                                        src={VideoTrailer}
+                                        height="500"
+                                        width="500"
+                                     />
+                                )
+                            }
+                      
                         </div>
                     </section>
                 </div>
