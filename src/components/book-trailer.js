@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React, {useEffect, useState } from 'react'
 import VideoPlayer from 'react-simple-video-player'
 import VideoTrailer from '../assets/video/Book_Trailer.mp4'
 import ReactPlayer from 'react-player/youtube'
@@ -7,16 +7,16 @@ import "../../node_modules/video-react/dist/video-react.css";
 
 
 
+
 const BookTrailer = ()=>{
 
+    const[ state, __stateFunc ] = useState(false);
 
     useEffect(() => {
-        
-        if (typeof window === 'undefined') {
-            global.window = {}
+        if (typeof window === 'undefined' ||  typeof window  === 'object') {
+            __stateFunc(true);
         }
-        
-    });
+    },[state, __stateFunc]);
 
      return(
          <>
@@ -38,13 +38,19 @@ const BookTrailer = ()=>{
                         </div>
 
                         <div className="trailer-container">
-                            <Player
-                                playsInline
-                                poster=""
-                                src={VideoTrailer}
-                                height="500"
-                                width="500"
-                            />
+
+                            {
+                                state && (
+                                    <Player
+                                        playsInline
+                                        poster=""
+                                        src={VideoTrailer}
+                                        height="500"
+                                        width="500"
+                                     />
+                                )
+                            }
+                      
                     
                         </div>
                     </section>
