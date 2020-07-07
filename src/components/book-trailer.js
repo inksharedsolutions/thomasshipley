@@ -13,7 +13,7 @@ const BookTrailer = ()=>{
     const[ state, __stateFunc ] = useState(false);
 
     useEffect(() => {
-        if (typeof window === 'undefined' ||  typeof window  === 'object') {
+        if (typeof window !== 'undefined' ||  typeof window  === 'object') {
             __stateFunc(true);
         }
     },[state, __stateFunc]);
