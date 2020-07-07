@@ -39,18 +39,6 @@ const BookTrailer = ()=>{
 
                         <div className="trailer-container">
 
-                            {
-                                state && (
-                                    <Player
-                                        playsInline
-                                        poster=""
-                                        src={VideoTrailer}
-                                        height="500"
-                                        width="500"
-                                     />
-                                )
-                            }
-                      
                     
                         </div>
                     </section>
