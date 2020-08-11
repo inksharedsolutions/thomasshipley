@@ -1,13 +1,10 @@
 import React, { useState } from 'react'
 import {Link} from 'gatsby'
-// import { setConfig } from 'react-hot-loader';
 import MainLogo from '../assets/images/logo/main_logo.png';
-
-// setConfig({ pureSFC: true });
-
 
 
 const Nav = () =>{
+    
     const [ toggled,  toggle ] = useState(false);
 
     return(

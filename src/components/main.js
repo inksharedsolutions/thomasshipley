@@ -15,6 +15,10 @@ import Book3 from '../assets/images/featured-book/book_3.png'
 import Book4 from '../assets/images/featured-book/book_4.png'
 
 
+/*Awards*/
+import Awrd1 from '../assets/images/awards/awards.png'
+
+
 const  Main = () =>{
 
 	const [mobState, __functState] = useState(false);
@@ -41,6 +45,7 @@ const  Main = () =>{
 
     return(
       <>
+
 	  	<section className="books-slider">
 			<div className="container">
 					<h1>Featured Books</h1>
@@ -75,9 +80,28 @@ const  Main = () =>{
 
 		{/* Book Trailer */}
 		<BookTrailer/>
+
+
+		<section className="container section-grid-awards">
+			<div className="heading-section">
+				<span className="heading-year">2020</span>
+				<h1 className="heading-awards">
+					<span>Author</span>
+					<span> of the Year</span>
+				</h1>
+				<p className="awaards-paragraph">
+					For Outstanding Achievement and 
+					Continuous Contributions
+				</p>
+			</div>
+
+			<div className="container-img">
+				<img src={Awrd1}/>
+			</div>
+		</section>		
 		
 
-		<section className="about section-padding " id="about">
+		<section className="ata-section section-padding" id="about">
 			<div className="container">
 
 					<div className="display-grid-two-col">
@@ -85,13 +109,14 @@ const  Main = () =>{
 						<div className="auth-image text-center" data-aos="fade-up" data-aos-delay="200">
 
 							<img 
-							src={authorImage} 
-							className="img-fluid"
-							alt="office" />
+								src={authorImage} 
+								className="img-fluid"
+								alt="office" />
 
 						</div>
 
 						<div className="about-info">
+
 							<p className="mb-0" data-aos="fade-up">
 								Thomas (Tom) Shipley Jr. is a prolific writer and has been widely published by the
 								trade press for general industrial, electrical, electronic, and metalworking sectors.
@@ -102,6 +127,7 @@ const  Main = () =>{
 								<p>Shipley</p>
 								<p className="tagline-ft">Author & Writer</p>
 							</h2>
+
 						</div>
 					</div>
 

@@ -17,17 +17,6 @@
 	display: block;
 }
 
-/*.headingFoxtrot:before{
-	background-image: url('../icons/pen.png');
-    background-size: 30px 40px;
-    width: 40px;
-    height: 40px;
-    content: "";
-    background-repeat: no-repeat;
-    display: block;
-    margin-bottom: 26px;
-}*/
-
 .contents-mockup{
     margin-bottom: 5em;
 }

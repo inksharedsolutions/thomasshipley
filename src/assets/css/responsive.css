@@ -28,7 +28,28 @@
     	text-align: left !important;
     	margin-top: 38px;
 	}
+
+	.book-trailer-grid,.display-grid-two-col,.section-grid-awards{
+    	grid-template-columns: auto !important;
+	}
+
+
+	.container-img{
+		margin-bottom: 6%;
+	}
+
+	.container-img img{
+		width: 41% !important;
+	}
+
+	.heading-section{
+		order: 2;
+	}
 	
+	.heading-author{
+		margin: 0;
+		text-align: center;
+	}
 }
 
 @media only screen and (max-width: 650px) {
@@ -53,6 +74,14 @@
 		width: 350px !important;
 		max-width: 100%;
 		border-radius: none;
+	}
+
+	.logo-container-fx img{
+		width: 100%;
+	}
+
+	.parent-trailer{
+		padding: 29% 0;
 	}
 
 }
