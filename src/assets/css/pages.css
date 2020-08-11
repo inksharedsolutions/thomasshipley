@@ -180,15 +180,6 @@
     font-size: 5rem;  
 }
 
-.banner-title::after{
-    content: "";
-    width: 114px;
-    background: #f1c111;
-    position: absolute;
-    /* display: block; */
-    height: 5px;
-    margin: 55px 1px;
-}
 
 .book-covers img{
     width: 100%;
