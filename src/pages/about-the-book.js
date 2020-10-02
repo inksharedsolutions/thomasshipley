@@ -24,13 +24,52 @@ const AboutTheBook = (props) => {
 
   let  fBookContent = (
     <>
-      <p>This book was developed to present factual information as delineated by the title:The United States of America The Most Successful Nation and People of All</p>
-      <p>The 1620 Mayflower Pilgrims Began it, with Freedom for People and the Free Market;
-      The Constitution Defined It with Law, Success Reigned. Too much of the information known about the economy and our marketplace is entirely incorrect. It has been disseminated by individuals with knowledge gained from university studies and books or by individuals in the political field—none from having experience in the business field.</p>
-      <p>These individuals want to solve the problems which they see prominent in the business field. They think workers are being mistreated, not being paid the way they should for the work they do, while the owners and managers of businesses are prospering. They say the rich are getting richer; the poor are getting poorer. Politicians have noted these problems and they feel an obvious solution would be to increase the minimum wage.</p>
+      <p>This book was developed to present factual information as delineated by the title:</p>
+
+      <p>The United States of America</p>
       
-      <p>The latter solution does only one thing: it makes it harder for some beginners to get a job. It helps no one. And no one, without experience in a particular technical field, can solve problems that might arise in that field. The United States of America: The Most Successful Nation and People of All explains why that is true.</p>
-      <p>The book explains how the United States of America has become the most successful nation and people in the world. Those classified as poor in this country are, on average, better off economically than the people, rich and poor, in Europe. The book provides facts and details that explains the reasons why the United States surpassed all other nations in economic success—its free market, how it was born, when it was born, and what government did to sustain it.</p>  
+      <p>The Most Successful Nation and People of All</p>
+
+      <p>The 1620 Mayflower Pilgrims Began it, with Freedom for People and the Free Market;</p>
+      <p>The Constitution Defined It with Law, Success Reigned.</p>
+      <p>Government Proliferated, Changes Now Needed.</p>
+      
+      <p>
+        Too much of the information known about the economy
+        and our marketplace is entirely incorrect. It has been
+        disseminated by individuals with knowledge gained from
+        university studies and books or by individuals in the
+        political field—none from having experience in the business field.
+      </p>
+
+      <p>
+        These individuals want to solve the problems which they see
+        prominent in the business field. They think workers are
+        being mistreated, not being paid the way they should for
+        the work they do, while the owners and managers of businesses
+        are prospering. They say the rich are getting richer; the poor
+        are getting poorer. Politicians have noted these problems and 
+        they feel an obvious solution would be to increase the minimum wage.
+      </p>
+
+      <p>
+        The latter solution does only one thing: it makes it harder for 
+        some beginners to get a job. It helps no one. And no one, without experience
+        in a particular technical field, can solve problems that might arise in that field.
+        The United States of America: The Most Successful Nation and People of All explains why that is true.
+      </p>
+
+      <p>
+        The book explains how the United States of America has become the most
+        successful nation and people in the world. Those classified as poor
+        in this country are, on average, better off economically than the
+        people, rich and poor, in Europe. The book provides facts and 
+        details that explains the reasons why the United States surpassed 
+        all other nations in economic success—its free market, how it was born, 
+        when it was born, and what government did to sustain it.
+      </p>
+
+      
     </>
   )
 

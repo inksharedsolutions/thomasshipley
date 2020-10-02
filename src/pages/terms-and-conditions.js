@@ -16,7 +16,7 @@ const TaC = (props)=>{
 			    html
 			 }
 		}
-	`)
+	`)			
 
 	const data = {...FetchMarkDown.markdownRemark};
 

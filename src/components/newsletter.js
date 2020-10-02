@@ -6,7 +6,7 @@ const newsletter = (props) =>{
 	let state = (props.stateData.doesValid);
 	let isValid = state.validity ? "inputStyles" : "errorInput";
 
-
+	
 	return(
 		<div id="bottomWrapper">
 			<div className="container">
