@@ -69,44 +69,57 @@ const AboutTheBook = (props) => {
         when it was born, and what government did to sustain it.
       </p>
 
-      
+
     </>
   )
 
 
-  let  sBookContent = (
+  let sBookContent = (
     <>
       <p>
-        Thomas Shipley Presented with the Albert Nelson Marquis Lifetime Achievement Award by Marquis Who’s 
-        Who Thomas Shipley has been endorsed by Marquis Who’s Who as a leader in his industry
+        Thomas Shipley Presented with the Albert Nelson Marquis Lifetime Achievement Award by 
       </p>
 
       <p>
-        Thomas Shipley Presented with the Albert Nelson Marquis Lifetime Achievement Award by Marquis Who’s Who 
-        Thomas Shipley has been endorsed by Marquis Who’s Who as a leader in his Industry
+        Marquis Who’s Who 
       </p>
 
       <p>
-         During my engineering days (1950 to 1965) with General Electric Company, writing about evolving technology and industrial automation activities was extremely important.
-         Those who could use and needed automation didn’t know anything about it, machinery equipped with the new systems was much more expensive, 
-         and labor unions in the manufacturing sector, quite strong in those days, were adamantly opposed to its use. 
+         Thomas Shipley has been endorsed by Marquis Who’s Who as a leader in his industry
       </p>
       
       <p>
-        For these reasons, the company gave engineers, not known to be effective communicators, formal instructions in a wide range of subjects,
-        one of which was effective presentation (oral and written). We were taught writing skills, but the importance of knowing what we
-        were writing or speaking about was emphasized. It was more important to know the subject—what we were writing or speaking about and
-        to write or speak with clarity—than it was to have journalistic abilities to be able to present the story in the very best manner.
-        My objective in writing or speaking was generally to describe some automated phenomenon, improvement in a production cycle, or the 
-        production of a miraculous product that I had witnessed, and readers of the publications, 
-        extremely interested in the advances being made in automation and machining technology, 
-        read my stuff and that of others religiously. It was only necessary to write with clarity and to avoid “engineering-speak.” 
+        During my engineering days (1950 to 1965) with General Electric Company,
+        writing about evolving technology and industrial automation activities
+        was extremely important. Those who could use and needed automation didn’t
+        know anything about it, machinery equipped with the new systems was much
+        more expensive, and labor unions in the manufacturing sector, quite strong
+        in those days, were adamantly opposed to its use. 
       </p>
 
       <p>
-        In the ’80s and early ’90s, small-computer technology was advancing rapidly, and machine manufacturers and users of the machines thirsted for information.
-        I was engaged by a trade publication to inform readers about these advancements. The editor sought me out because of copious material I had written about
-         computers and automated machines—using words and terms that were understandable to interested people who were not engineers or professionals in industry. 
+        For these reasons, the company gave engineers, not known
+        to be effective communicators, formal instructions in a wide range
+        of subjects, one of which was effective presentation (oral and written).
+        We were taught writing skills, but the importance of knowing what we were
+        writing or speaking about was emphasized. It was more important to know the
+        subject—what we were writing or speaking about and to write or speak with
+        clarity—than it was to have journalistic abilities to be able to present the
+        story in the very best manner. My objective in writing or speaking was generally
+        to describe some automated phenomenon, improvement in a production cycle, or the
+        production of a miraculous product that I had witnessed, and readers of the publications,
+        extremely interested in the advances being made in automation and machining technology,
+        read my stuff and that of others religiously. It was only necessary to write with clarity
+        and to avoid “engineering-speak.” 
+      </p>
+
+      <p>
+        In the ’80s and early ’90s, small-computer technology was advancing rapidly,
+        and machine manufacturers and users of the machines thirsted for information.
+        I was engaged by a trade publication to inform readers about these advancements.
+        The editor sought me out because of copious material I had written about computers
+        and automated machines—using words and terms that were understandable to interested 
+        people who were not engineers or professionals in industry. 
       </p>
 
     </>
