@@ -9,14 +9,14 @@ const TaC = (props)=>{
 		 query TermsAndCondtionsPageQuery  {
 			  markdownRemark(fileAbsolutePath: {regex: "/terms-and-condition.md/" }) {
 			    frontmatter {
-			      author 
+			      author
 			      date
 			      title
 			    }
 			    html
 			 }
 		}
-	`)			
+	`)
 
 	const data = {...FetchMarkDown.markdownRemark};
 

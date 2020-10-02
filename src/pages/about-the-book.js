@@ -94,7 +94,7 @@ const AboutTheBook = (props) => {
         was extremely important. Those who could use and needed automation didn’t
         know anything about it, machinery equipped with the new systems was much
         more expensive, and labor unions in the manufacturing sector, quite strong
-        in those days, were adamantly opposed to its use. 
+        in those days, were adamantly opposed to its use.
       </p>
 
       <p>
@@ -121,7 +121,6 @@ const AboutTheBook = (props) => {
         and automated machines—using words and terms that were understandable to interested 
         people who were not engineers or professionals in industry. 
       </p>
-
     </>
   )
 

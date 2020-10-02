@@ -6,12 +6,16 @@ const newsletter = (props) =>{
 	let state = (props.stateData.doesValid);
 	let isValid = state.validity ? "inputStyles" : "errorInput";
 
-	
+
 	return(
 		<div id="bottomWrapper">
 			<div className="container">
 				<section className="sectionNewsletter">
-					<h2 className="newsletterHeading"><span className="spanLETTERS"> Newsletter </span></h2>
+
+					<h2 className="newsletterHeading">
+						<span className="spanLETTERS"> Newsletter </span>
+					</h2>
+
 						<div className="containerNewsletter">
 							<form onSubmit={props.submit} >
 								  <div className="form-group">
