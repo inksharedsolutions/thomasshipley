@@ -9,7 +9,7 @@ const Pp = (props)=>{
 		 query PrivacyPolicyPageQuery  {
 			  markdownRemark(fileAbsolutePath: {regex: "/privacy-policy.md/" }) {
 			    frontmatter {
-			      author 
+			      author
 			      date
 			      title
 			    }
