@@ -18,7 +18,7 @@ const Pp = (props)=>{
 		}
 	`)
 
-	const data = {...FetchMarkDown.markdownRemark};
+	const data = { ...FetchMarkDown.markdownRemark };
 
 	return(
 		<>
@@ -26,8 +26,12 @@ const Pp = (props)=>{
 		  		<article className="article-contents">
 				  	<div className="container">
 
-				  		<h1 className="heading-off-pages">{data.frontmatter.title}</h1>
-				  		<div className="">{Parser(data.html)}</div>
+				  		<h1 className="heading-off-pages">
+				  			{data.frontmatter.title}
+				  		</h1>
+				  		<div className="">
+				  			{Parser(data.html)}
+				  		</div>
 
 				  	</div>
 			  	</article>

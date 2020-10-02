@@ -219,11 +219,10 @@ const AboutTheBook = (props) => {
     <>
       <Layout>
         <Banner  title={`About the Book`} />
-        <div className="container">
-
-          <div className={`row elementContainers`}>
+          <div className="container">
+           <div className={`row elementContainers`}>
               
-            <BookSlider 
+            <BookSlider
 
               title={`The United States of America`}
               spanTitle={`The most succesful nation and people of all`}
@@ -251,8 +250,6 @@ const AboutTheBook = (props) => {
               }
 
             />
-
-
 
            <BookSlider 
               contents={sBookContent}
@@ -301,7 +298,7 @@ const AboutTheBook = (props) => {
                     barnes: 'https://www.barnesandnoble.com/w/for-the-good-times-tom-shipley/1132771078?ean=9781643456713'
                   },
 
-                  paperback :{
+                  paperback:{
                     amazon : 'https://www.amazon.com/Good-Times-Best-Fifty-Years/dp/1643455842/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1565105778&sr=8-1',
                     barnes: 'https://www.barnesandnoble.com/w/for-the-good-times-tom-shipley/1132771078?ean=9781643455846',
                     booksamillion : 'https://www.booksamillion.com/p/Good-Times/Tom-Shipley/9781643455846?id=7714171848832'

@@ -19,13 +19,6 @@ class Footer extends React.Component{
                   <div className="logo-container-fx">
                       <img src={MainLogo} />
                   </div>
-
-                  {/* <h1 className="text-white text-center heading-markup-footer" 
-                    data-aos="fade-up" 
-                    data-aos-delay="100">
-                    Thomas<strong> Shipley</strong> Jr.
-                  </h1>  */}
-
                 </div>
 
                 <div className="col-lg-3 col-md-6 col-12 text-right mobile-footer-fx" data-aos="fade-up" data-aos-delay="200">
