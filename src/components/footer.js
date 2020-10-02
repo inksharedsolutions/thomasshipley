@@ -37,10 +37,8 @@ class Footer extends React.Component{
                   </p>
 
                   <p>
-                    <Link to="#">
-                      <i className="fa fa-envelope mr-2 footer-icon"></i>
-                      publish@stratton-press.com
-                    </Link>
+                    <i className="fa fa-envelope mr-2 footer-icon"></i>
+                    publish@stratton-press.com
                   </p>
 
                 </div>
@@ -61,7 +59,7 @@ class Footer extends React.Component{
                 <div className="col-lg-4 mx-lg-auto col-md-6 col-12" data-aos="fade-up" data-aos-delay="500">
                   
                   <ul className="footer-link">
-                    <li><Link to="terms-and-condition">Terms & Conditions</Link></li> 
+                    <li><Link to="terms-and-conditions">Terms & Conditions</Link></li> 
                     <li><Link to="privacy-policy">Privacy Policy</Link></li>
                   </ul>
 

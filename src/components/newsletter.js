@@ -15,11 +15,11 @@ const newsletter = (props) =>{
 						<div className="containerNewsletter">
 							<form onSubmit={props.submit} >
 								  <div className="form-group">
-								    <div className="form-text text-muted" id="pbb-letter-cont-nw">Stay up to date with latest from me</div>
+								    <div className="form-text text-muted" id="pbb-letter-cont-nw">Stay up to date with the latest from me</div>
 								    <div className="input-group" id="pd-elementor-apex">
 
 								    	<span className="spanMess"> {state.value} </span>
-		
+										
 										  <div className="input-group-append">
 											
 
