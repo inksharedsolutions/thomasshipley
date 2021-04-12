@@ -16,12 +16,6 @@ const link = (props) =>{
 				</li>
 				
 				<li>
-					<a target="_blank"
-					  rel="noopener noreferrer" 
-					  href={props.bookInfo.ebooks.stratton}>Stratton Press</a>
-				</li>
-				
-				<li>
 					<a target="_blank" 
 					rel="noopener noreferrer"
 					href={props.bookInfo.ebooks.barnes}>Barnes & Noble</a>
@@ -31,7 +25,7 @@ const link = (props) =>{
 
 			<nav className={style.booklinkBlocks}>
 			
-				<span>Purchase Paperback :</span>
+				<span>Paperback :</span>
 
 				<li>
 					<a target="_blank" 

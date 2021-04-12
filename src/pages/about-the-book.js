@@ -237,7 +237,6 @@ const AboutTheBook = (props) => {
                 {
                   ebooks :{
                     amazon : 'https://www.amazon.com/United-States-America-Successful-Nation-ebook/dp/B07NKP8DSW/ref=sr_1_1?keywords=9781643453552&qid=1554414775&s=books&sr=1-1',
-                    stratton: 'https://www.stratton-press.com/books/the-united-states-of-america-the-most-successful-nation-and-people-of-all/',
                     barnes: 'https://www.barnesandnoble.com/w/the-united-states-of-america-thomas-shipley/1130543456?ean=9781643453552'
                   },
 
@@ -265,7 +264,6 @@ const AboutTheBook = (props) => {
                 {
                   ebooks :{
                     amazon : 'https://www.amazon.com/Man-Made-Global-Warming-Foolishness-Understand-ebook/dp/B07XSMZRDY/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1568653251&sr=1-1',
-                    stratton: 'https://www.stratton-press.com/books/man-made-global-warming-its-foolishness-in-words-that-all-can-understand/',
                     barnes: 'https://www.barnesandnoble.com/w/man-made-global-warming-tom-shipley/1133492303?ean=9781643457437'
                   },
 
@@ -294,7 +292,6 @@ const AboutTheBook = (props) => {
                 {
                   ebooks :{
                     amazon : 'https://www.amazon.com/Good-Times-Best-Fifty-Years-ebook/dp/B07VZTQK78/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1565105778&sr=8-1',
-                    stratton: 'https://www.stratton-press.com/books/for-the-good-times-the-best-of-fifty-years/',
                     barnes: 'https://www.barnesandnoble.com/w/for-the-good-times-tom-shipley/1132771078?ean=9781643456713'
                   },
 
@@ -323,7 +320,6 @@ const AboutTheBook = (props) => {
                 {
                   ebooks :{
                     amazon : 'https://www.amazon.com/Lifes-Story-Portrait-Millions-Twentieth-ebook/dp/B082MTCVBZ/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1576180896&sr=8-1',
-                    stratton: 'https://www.stratton-press.com/books/a-lifes-story-a-portrait-of-millions-of-ordinary-american-citizens-as-they-moved-through-the-twentieth-century/',
                     barnes:  'https://www.barnesandnoble.com/w/a-lifes-story-tom-shipley/1135498634?ean=9781643458021'
                   },
 
